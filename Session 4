@@ -1,0 +1,53 @@
+Session 4:
+
+1. Make a Juice Shop with Function:
+
+def calculate_bill(price, quantity):
+    """Calculates the total price of the order."""
+    total = price * quantity
+    return total
+
+# 1. Show the menu
+print("--- JUICE SHOP MENU ---")
+print("1. Apple Juice  - ₹100")
+print("2. Orange Juice - ₹120")
+print("3. Mango Juice  - ₹150")
+
+# 2. Get the customer's choice
+choice = input("Choose a juice number (1-3): ")
+qty = int(input("How many glasses do you want? "))
+
+# 3. Match choice to price
+if choice == "1":
+    juice_name = "Apple Juice"
+    juice_price = 100
+elif choice == "2":
+    juice_name = "Orange Juice"
+    juice_price = 120
+elif choice == "3":
+    juice_name = "Mango Juice"
+    juice_price = 150
+else:
+    juice_name = "Unknown"
+    juice_price = 0
+
+# 4. Calculate and show the result
+if juice_price > 0:
+    final_bill = calculate_bill(juice_price, qty)
+    print(f"\nYour order: {qty} x {juice_name}")
+    print(f"Total Bill: ₹{final_bill}")
+else:
+    print("Invalid choice. Please run the program again!")
+
+2. Make a Popcorn Machine at a Movie:
+
+def make_popcorn(kernel_count):
+    print(f"🍿 Machine started with {kernel_count} kernels!")
+    
+    for i in range(1, kernel_count + 1):
+        print(f"POP! 💥 ({i} popped)")
+        
+    print("✨ Popcorn is ready!")
+
+# Use the function with 5 kernels
+make_popcorn(5)
