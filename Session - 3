@@ -1,0 +1,42 @@
+Session 3:
+
+1. Check Even/Odd:
+
+num = int(input("Enter the number"))
+if num%2 = 0:
+  print("The number is Even")
+else:
+  print("The number is odd")
+
+
+2. GreetUserbyTime:
+
+hour = int(input("Enter your time"))
+if hour <12: 
+  print("Good Morning")
+elif hour <17:
+  print("Good Afternoon")
+elif hour <24:
+  print("Good Night")
+else:
+  print("Wrong Time")
+
+3.CheckLuckyNumber:
+
+#7 = WOW! Super Lucky Number!
+#1 = Winner!
+
+number = int(input("Enter number:")
+if number == 7:
+   print(WOW! Super Lucky Number!")
+elif number ==1:
+   print("Winner!")
+else:
+   print("You Lost")
+
+4.Basic Function:
+
+def greet (name):
+greet("India")
+greet("Kerala")
+greet("Kottarakkara")
