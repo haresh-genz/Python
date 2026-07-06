@@ -1,0 +1,27 @@
+Session 5:
+
+Snack_Shop:
+
+def snack_shop():
+  print("Welcome to shop")
+
+ availableSnacksList = ["chips","soda"]
+ print("Available Snacks"2)
+ for i in availableSnacksList:
+   print("-", i.capitalize())
+
+ requestedSnacks = int(input("How many scnaks do you want")
+ cart{}
+ for item in range(requestedSnacksItems):
+  choice = input("Enter Snack:")
+
+ if choice in availableSnacksList:
+  print("Snack added to cart")
+ else:
+  print("Sorry, not available")
+
+ print("In snacks you bought")
+ for item in cart:
+  print("-",item.capitalize())
+
+snacks_shop()
