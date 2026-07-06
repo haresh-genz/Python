@@ -1,0 +1,38 @@
+Session 2:
+
+Data Types:
+- int = integer
+   2,5,56,4
+
+- float = decimal
+   2.5,3.233,534.232
+
+- string = word
+   "Haresh" "fan"
+
+Boolean = true or false
+
+Conditional Statements:
+To find someone is eligible to vote:
+ 
+age = int(input("What is your age"))
+if age >=18
+  print("User is eligible to vote")
+else:
+  print("User is not eligible to vote")
+
+Data Storage Units:
+8 bit - 1byte
+1024 byte - 1kilobyte
+1024 KB - 1megabyte
+1024 MB - 1gigabyte
+1024 GB - 1terabyte
+1024 TB - 1 Petabyte
+
+Data Types           Description                          Memory usage(bytes)
+int 8                8-bit integer                        1
+int 16               16-bit integer                       2
+int 32               32-bit integer                       4
+int 64               64-bit integer                       8
+float 32             32-bit floating point number         4
+float 64             64-bit floating point number         8
