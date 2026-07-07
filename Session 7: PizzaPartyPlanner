@@ -1,0 +1,23 @@
+Session 7:
+
+PizzaPartyPlanner:
+
+toppings = []
+print("Enter 5 pizza toppings:")
+for i in range (5):
+  toppings = input(f"Topping {i+1}:")
+  toppings.append(topping)
+print("In total toppings:"), len (toppings))
+
+add_more = input("Do you want to add more toppings?(Yes/No")
+if add_more.lower() =="Yes":
+  new_topping=input("Enter new topping")
+  toppings.append(new_topping)
+
+toppings.sort()
+
+print("In final pizza toppings list:")
+for item in topping:
+  print("-", item)
+
+print("In you're all set for a delicious pizza party!")
