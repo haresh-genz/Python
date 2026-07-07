@@ -1,0 +1,84 @@
+Session 8:
+
+Sets:
+- It is like a bag that can store unique values
+- It auto removes duplicate values
+
+Operations:
+1.Onion - (a - 1,2,3) + (b - 3,4,5) = 1,2,3,4,5
+2.Intersections - (a - 1,2,3) - (b - 3,4,5,) = 3
+3.Difference - (a - 1,2,3) - (b - 3,4,5) = 1,2
+4.Adding/Removing
+
+*Creation:
+a = {1,2,3}
+b = {3,4,5}
+
+*Printing:
+print(a)
+
+*Union(add-remove common):
+print(a.union(b))
+
+*Intersection(common):
+print(a.intersection(b))
+
+*Difference:
+print(b.difference(a))
+
+*Adding:
+a.add(15)
+print(a)
+
+*Remove:
+a.remove(15)
+print(a)
+
+Dictionaries:
+- It stores data in key-value pairs
+- Used to store data with labels, not just positions
+- Great for storing info about a person,item, object
+
+*Eg:
+student = {
+  "name": "Haresh",
+  "age": 16,
+  "grade": "8th",
+  "roll_no": 16
+}
+
+*Accessing:
+print("Student name is: ", student["name"]);
+print("Student age is ", student["age"]);
+
+*Update:
+student["age"] = 17
+
+*Insert:
+student["school'] = "Kerala School"
+print("Student age is: ", student ["age"])
+print("/n") #new line
+
+print("Update student info: ")
+for key, value in student.items():
+  print(key, ":", value)
+
+*Methods on dictionaries:
+print(student.keys())
+print(student.values())
+print(student.items())
+
+print(student.get("roll_no"));
+student.update({"age}:19})
+student.update({"city" "Kerala"})
+print(student.items())
+
+*Checking the length of the dictionary:
+print(len(student))
+
+*Remove:
+student.pop("age")
+
+*Clear:
+student.clear()
+print(student.items())
