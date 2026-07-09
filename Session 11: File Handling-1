@@ -1,0 +1,39 @@
+Session 11:
+
+File Handling: Session 1:
+
+#create new file
+import os
+
+def create_new_file():
+  with open("contacts.txt","w") as file:
+    file.write("")#create empty file
+print("New contacts file created.")
+
+create_new_file()
+
+def add_contacts()
+  name = input("Enter contact name: ")
+  phone = input("Enter phone number: ")
+  with open("contacts.txt", "a") as file:
+    file.write(f"{name}{phone}\n")
+  print(f"Contact{name} added successfully!")
+  
+add_contacts()
+
+def view_contacts():
+  try:
+    with open("contacts.txt", "r") as file:
+      contacts = file.readlines()
+ #readlines() = returns a list of all lines in the file.
+      if not contacts:
+        name,phone = contact.strip().split(",")
+  except FileNotFoundError:
+    print("No contacts file found. Add a contacts first.")
+
+view_contacts()
+
+#Error handling using try-except
+#next functionality
+#add search function
+#entire control should be done by main function
