@@ -1,0 +1,36 @@
+Session 9:
+
+Array:
+- An Array is a container that holds multiple values of the same type(like only number or only characters), arranged in order.
+- Think of Array like a row of lockers- all the same size, each holding one item(number).
+- In Python, we usually use lists as Arrays, but we also have a special module called Array.
+
+- Basic Array operation - Adding/Changing, Removing/Deleting, Looping, Concatenating, Slicing
+
+#list as an array
+arr = ["Haresh", "Sita", "Renu"]
+print(arr)
+
+import array #importing array as a module from Python library.
+#syntax
+#var = array.array('data_type',[data,container])
+
+numbers = array.array('i', [10,20,30,40])
+print(numbers)
+print(numbers[0])
+
+#adding new value:
+numbers.append(50)
+print(numbers)
+
+#remove value:
+numbers.remove(10)
+print(numbers)
+
+#Loop on array:
+for num in numbers:
+print(num)
+
+#length of the array:
+size = len(numbers)
+print("Size of araray is ",size)
