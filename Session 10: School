@@ -1,0 +1,43 @@
+Session 10:
+
+1930 Era:
+Work they have to do:
+- students data
+- classes record
+- teachers details
+- teachers salaries
+- accounts
+
+Issues:
+- students marks are forgettable
+- hard to calculate
+- time-consuming
+- difficult to maintain
+- transparency was not there
+- incorrect
+
+1998 Era:
+Solutions:
+- store the data in disks/memory
+- smart to calculate
+- faster than humans
+- easier to use
+ -transparent system, becuase they dont lie
+- they dont make mistakes
+
+Why this project is important to learn in Python:
+- how to convert real-world problems into coding(Python)
+- understanding the data structure(like: lists, dictionaries, arrays)
+- writing the code in functions to make the process reusable
+
+20's Era:
+How we will learn by building this project using programming languages like Python?
+
+1. functions: breaking down the bigger data into small parts and reusable
+2. list and dictionaries: store and manage dynamic datas
+3. loops: automate the repetition like addign the subject 
+4. conditional statements: for decision making
+5. sets: handling the unique values(like subjects)
+6. algorithms(like sorting): easier to find the topper
+7. file handling: save the data in files
+
