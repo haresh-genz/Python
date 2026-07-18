@@ -1,0 +1,46 @@
+School Management:
+
+import json
+
+#List for storing all the student records 
+students = []
+#Set for the unique subjects
+subjects = {"Maths", "Science", "English"}
+
+#functions
+def add_student():
+  print(""Add the new student:")
+  student_id = input("Enter student id:") 
+  #loop
+  for student in students:
+  if student["id"] == student_id:
+    print("Student id already exists.")
+    return
+
+  name = input("Enter the student name:")
+  #Dictionary to store the student data
+  student = {
+    "id": student_id,
+    "name": name,
+    "grades": {}
+  }
+
+  #Input grades for each subject
+  for subject in subjects:
+    while True:
+      try
+        grade = float(input(f"Enter {subject} grade (0-100): "))
+        if 0<=grade <=100:
+          student["grades"][subject] = grade
+          break
+        else:
+          print("Grade must be between 0 to 100")
+        except ValueError:
+          print("Invalid input. Enter a number:")
+  
+  students.append(student))
+  print(f"Student {name} added successfully!')
+
+add_student()
+
+HW: view_students
